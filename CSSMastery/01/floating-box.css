@@ -1,0 +1,22 @@
+.container {
+	border: 1px dotted black;
+	width: 800px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.box {
+	background-color: yellow;
+	border: 1px dotted black;
+	width: 200px;
+	height: 100px;
+	margin: 20px;
+}
+
+.floatLeft {
+	float: left;
+}
+
+.floatRight {
+	float: right;
+}
