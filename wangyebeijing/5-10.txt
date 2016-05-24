@@ -1,0 +1,15 @@
+﻿<html>
+<head>
+<title>个人主页</title>
+<style>
+body
+{
+	background:url(bg9.gif);	/* 页面背景图片 */
+	margin:0px; padding:0px;
+}
+</style>
+</head>
+<body>
+
+</body>
+</html>
