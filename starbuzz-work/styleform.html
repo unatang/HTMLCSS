@@ -1,0 +1,55 @@
+﻿<html>
+<head>
+<title></title>
+<style> 
+body
+{
+    background-image: url(images/background.gif);
+}
+form
+{
+    border: 1px solid black;
+    width: 500px;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+}
+
+</style>
+</head>
+<body>
+<h1>The Starbuzz Bean Machine</h1>
+<h2>Fill out the form below and click "order now" to order</h2>
+<form id="beanform" action="http://www.starbuzzcoffee.com/processorder.php" method="post">
+    <p>Choose your beans:
+        <select name="characters">
+            <option value="House Blend">House Blend</option>
+            <option value="New School">New School</option>
+            <option value="penny">penny</option>
+            <option value="Jersey">Jersey</option>
+        </select>       
+    </p>
+    <p>Slip to:
+        Name: <input type="text" name="name" /><br />
+        Address: <input type="text" name="address" /><br />
+        City: <input type="text" name="city" /><br />
+        State: <input type="text" name="state" /><br />
+        Zip: <input type="text" name="zip" /><br />
+    </p>
+    <p>Type:<br>
+        <input type="radio" name="wholeground" value="Whole bean" /> Whole bean<br>
+        <input type="radio" name="wholeground" value="Ground" /> Ground<br>   
+    </p>
+    <p>Extras:<br>
+        <input type="checkbox" name="Extras" value="Gift wrap" /> Gift wrap<br>
+        <input type="checkbox" name="Extras" value="Include catalong with order" /> Include catalong with order<br>  
+    </p>
+    <p>Customer Comments:<br>
+        <textarea name="comments" rows="10" cols="40"></textarea><br>  
+    </p>
+    <p>
+        <input type="submit" name="btnsubmit" value="submit" />    
+    </p>
+    
+</form>
+</body>
+</html>
